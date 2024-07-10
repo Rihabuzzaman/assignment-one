@@ -1,3 +1,254 @@
+/* Reset styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
 .hero {
-  background-image: url(img);
+  background-image: url(/img/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 452px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+.banner-img {
+  display: flex;
+  width: 140.28px;
+  height: 140px;
+  left: 257.67px;
+  right: -257.67%;
+  top: 0%;
+  bottom: 0%;
+  margin: auto;
+}
+
+.hero-title {
+  position: static;
+  width: 998px;
+  height: 136px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex: none;
+  margin: auto;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.hero-sub-title {
+  width: 70%;
+  margin: auto;
+}
+
+.hero-sub-title > p {
+  text-align: center;
+}
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(13, 19, 33);
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  margin-top: 20px;
+  width: fit-content;
+}
+
+.btn-hero {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(13, 19, 33);
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  margin-top: 20px;
+  width: fit-content;
+  margin: auto;
+}
+.btn-hero > a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+
+.btn a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+.content {
+  position: static;
+  width: 852px;
+  height: 39px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: auto;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.sub-content {
+  position: static;
+  width: 852px;
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: auto;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+.skill {
+  display: flex;
+  justify-content: center;
+  padding: 48px;
+  background-color: rgb(239, 239, 239);
+  width: 650px;
+  margin: 60px auto;
+  align-items: center;
+}
+.skill-right {
+  width: 300px;
+  height: auto;
+}
+.skill-right img {
+  width: 274.17px;
+  height: 240px;
+  margin: 0px 10px;
+}
+.skill-left {
+  width: 300px;
+  height: auto;
+}
+
+.body-heading {
+  text-align: center;
+}
+
+/* Footer styles */
+footer {
+  background-color: rgb(180, 180, 180);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  margin: 0 10px;
+}
+
+.my-dream {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.my-dream h2 {
+  text-align: center;
+}
+
+.main-skill-section {
+  padding: 30px;
+  background-color: rgb(222, 222, 222);
+  margin: 20px auto;
+  width: 70%;
+}
+
+.section-heading {
+  padding: 30px 0;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.skill-heading {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.support {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  background-image: url(/img/person-front-computer-working-html.jpg);
+  height: 260px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 60px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.support h2 {
+  color: white;
+}
+
+.input-filed {
+  position: absolute;
+}
+
+input {
+  padding: 4px 0;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  padding: 4px 10px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  outline: 0;
+  cursor: pointer;
 }
